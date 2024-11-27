@@ -1,6 +1,7 @@
 import Navbar from "./component/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Admin from "./pages/Admin";
+import Home from "./pages/Home";
 import Dashboard from "./component/Dashboard";
 import RoleManagement from "./component/RoleManagement";
 function App() {
@@ -15,7 +16,7 @@ function App() {
             <Dashboard />
           </div>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<Home />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/rolemanger" element={<RoleManagement />} />
           </Routes>
