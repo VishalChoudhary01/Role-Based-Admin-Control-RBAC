@@ -19,21 +19,21 @@ const Admin = () => {
   const [users, setUsers] = useState([
     {
       id: 1,
-      userName: "John Doe",
+      userName: "Vishal Kumar",
       role: "Admin",
       permissions: ["write", "read", "update"],
       status: "Active",
     },
     {
       id: 2,
-      userName: "Jane Smith",
+      userName: "Kishore Kumar",
       role: "User",
       permissions: ["read"],
       status: "In-Active",
     },
     {
       id: 3,
-      userName: "Bob Lee",
+      userName: "Monal Kumar",
       role: "Editor",
       permissions: ["write", "read"],
       status: "Active",
@@ -145,7 +145,7 @@ const Admin = () => {
                     ButtonClick={handleModalChange}
                     ButtonContent={"Add User"}
                     ButtonStyle={
-                      "lg:text-[0.9rem] md:text-[0.7rem] text-[0.5rem] bg-gray-800 shadow-inner shadow-[#6f6d6d] text-white hover:bg-black transition-all active:scale-105 lg:px-[1rem] lg:py-[0.4rem] md:px-[0.8rem] md:py-[0.3rem] py-[0.2rem] px-[0.5rem]  rounded-3xl  flex gap-x-1 items-center"
+                      "lg:text-[0.9rem] md:text-[0.7rem] text-[0.5rem] bg-gray-800 shadow-inner shadow-[#6f6d6d] text-white hover:bg-black hover:shadow-inner hover:shadow-gray-600 transition-all active:scale-105 lg:px-[1rem] lg:py-[0.4rem] md:px-[0.8rem] md:py-[0.3rem] py-[0.2rem] px-[0.5rem]  rounded-3xl  flex gap-x-1 items-center"
                     }
                     RenderLeftStyle={"lg:text-lg md:text-md text-sm"}
                     RenderRight={<BsFillPersonPlusFill />}
