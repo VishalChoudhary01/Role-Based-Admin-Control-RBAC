@@ -52,7 +52,8 @@ This structure seems well-organized and maintains clear separation between vario
 # Add User
 ![image](https://github.com/user-attachments/assets/8b3ece7f-ff0d-4889-9c6a-6b3a77dae2dc)
 # Edit User
-![image](https://github.com/user-attachments/assets/e5ae6651-26ea-4b94-99fd-e0960465a55a)
+![image](https://github.com/user-attachments/assets/3a8b702f-144d-4681-b5f6-f6ae489bcb43)
+
 
 
 
