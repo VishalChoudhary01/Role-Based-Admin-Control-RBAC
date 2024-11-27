@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Ahom&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+    background: linear-gradient(45deg, #73AB84, #FFE8D1,#D3D0CB,#fee68f,#52DEE5,#2278BA, #99D19C, #73AB84);
+    background-size: 400% 400%; 
+    animation: gradientMove 10s ease-in-out infinite;
+}
+
+.ImageShadow{
+    filter: drop-shadow(1px 2px  8px #acadae);
+}
+
+.multi-text-shadow {
+    text-shadow: 
+      2px 2px 8px rgba(235, 234, 234, 0.799), 
+      -2px -2px 10px rgba(255, 255, 255, 0.656);
+  }
+  
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 20%; 
+    }
+    25% {
+        background-position: 20% 40%;
+    }
+    50% {
+        background-position: 50% 50%; 
+    }
+    75% {
+        background-position: 50% 50%; 
+    }
+    100% {
+        background-position: 0% 50%; 
+    }
+  }
+
+  @keyframes shake {
+    0% {
+        transform: rotate(0deg) scale(1);
+      }
+      25% {
+        transform: rotate(-10deg) scale(1.01);
+      }
+      50% {
+        transform: rotate(10deg) scale(1.2);
+      }
+      75% {
+        transform: rotate(-10deg) scale(1);
+      }
+      100% {
+        transform: rotate(0deg) scale(1);
+      }
+  }
+  
+  /* Apply the shake animation to the icon */
+  .icon-shake:hover {
+    animation: shake 0.6s ease-in-out infinite;
+  }
+  
+  /* body{
+    outline:2px solid red;
+  } */
+   /* Custom hover scale effect */
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scale-hover {
+  animation: scaleIn 0.3s ease-in-out;
+}
+
+button:hover {
+  animation: scaleIn 0.3s ease-in-out;
+}
