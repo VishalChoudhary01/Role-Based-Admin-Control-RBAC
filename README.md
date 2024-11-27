@@ -42,6 +42,9 @@
 
 This structure seems well-organized and maintains clear separation between various components for easy maintenance and scalability in the future.
 ## Screenshots
+# Home Page
+![image](https://github.com/user-attachments/assets/91895872-f138-41fb-bef7-3a3fd0877b63)
+
 # List of User
 ![image](https://github.com/user-attachments/assets/56d51a6d-0cd7-48ec-9935-4f49ed930e50)
 # Manage Roles
