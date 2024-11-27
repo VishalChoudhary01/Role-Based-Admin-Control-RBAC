@@ -38,6 +38,7 @@ const Item = ({ item, index, handleDelete, handleUpdate, handleStatusToggle }) =
         {/* Edit Button */}
         <Button
           ButtonContent={"Edit"}
+          RenderLeftStyle="shake"
           RenderLeft={<FaEdit />}
           ButtonClick={() => handleUpdate(item)}
           ButtonStyle="bg-[#e7fafce4] flex items-center rounded-md px-2 py-1"
