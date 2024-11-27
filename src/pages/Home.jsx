@@ -2,10 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <header className="w-[90%] bg-blue-900 text-white">
+    <header className="w-full bg-blue-900 text-white">
       {/* Top Section: Address and Open Hours */}
       <div className="flex flex-col md:flex-row justify-between items-center container mx-auto py-3 px-4 text-sm">
-        <div className="flex items-center space-x-2">
+        <div className="flex w-[90%] items-center space-x-2">
           <span className="font-medium">📍</span>
           <span>No 10, Jyothi Nagar, 1st Street, Mudichur Rd, West Tambaram, Chennai, Tamil Nadu 600045</span>
         </div>
