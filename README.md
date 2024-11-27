@@ -45,6 +45,10 @@ This structure seems well-organized and maintains clear separation between vario
 # Home Page
 ![image](https://github.com/user-attachments/assets/91895872-f138-41fb-bef7-3a3fd0877b63)
 
+# Side bar ( Dashboard )
+![image](https://github.com/user-attachments/assets/6ab3013f-2660-48b0-8ce8-59cbc8e517a2)
+
+
 # List of User
 ![image](https://github.com/user-attachments/assets/56d51a6d-0cd7-48ec-9935-4f49ed930e50)
 # Manage Roles
@@ -60,6 +64,7 @@ This structure seems well-organized and maintains clear separation between vario
 
 # Edit Role
 ![image](https://github.com/user-attachments/assets/c49684a5-11d3-4eb0-b458-6d7bf895b005)
+# Add Role
+![image](https://github.com/user-attachments/assets/de51422e-121d-43b7-b7e8-4fc502958140)
 
-![image](https://github.com/user-attachments/assets/a0472c28-871f-4218-97f2-44b71e7983f9)
 
