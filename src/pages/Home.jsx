@@ -2,7 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <header className="w-full bg-blue-900 text-white">
+<div class name="flex justify-center">
+    <header className="w-[95%] bg-blue-900 text-white">
       {/* Top Section: Address and Open Hours */}
       <div className="flex flex-col md:flex-row justify-between items-center container mx-auto py-3 px-4 text-sm">
         <div className="flex w-[90%] items-center space-x-2">
@@ -43,6 +44,7 @@ const Home = () => {
         </div>
       </div>
     </header>
+</div>
   );
 };
 
